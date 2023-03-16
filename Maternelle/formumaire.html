@@ -1,30 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CONTACT</title>
+<title>La Marternelle</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
 </head>
-<body>
-    
-    <section>
-      <div class="container">
-        <p>Avant de me poser une question (problèmes de téléchargement, fichier zippé invalide ou corrompu, souci d'impression... ), tu peux jeter un oeil dans <a href="http://jt44.free.fr/faq.htm">la Foire aux questions (FAQ</a>) la réponse s'y trouve peut-être déjà.
-        </p>
-      </div>
-        <form class="form">
-            <h2>Tu veux me contacter ? </h2>
-            <p type="Name:"><input placeholder="Write your name here.."></input></p>
-            <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-            <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-            <button>Send Message</button>
-            <div>
-              <span class="fa fa-phone"></span>001 1023 567
-              <span class="fa fa-envelope-o"></span> jt44@orange.fr
-            </div>
-          </form>
-    </section>
-</body>
+<body><!-- Navbar (sit on top) -->
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header><!-- Page content -->
+<div class="w3-content" style="max-width:1100px">  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>    
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Tu veux me contacter ?</h1><br>
+      <h5 class="w3-center">Tradition since 1889</h5>
+      <p class="w3-large">Avant de me poser une question (problèmes de téléchargement, fichier zippé invalide ou corrompu, souci d'impression... ), tu peux jeter un oeil dans la Foire aux questions (FAQ) la réponse s'y trouve peut-être déjà.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Clique sur l'enveloppe, je m'efforcerai de te répondre dans les meilleurs délais.
+
+        Pour avoir une réponse, merci de donner une adresse mail valide.
+        
+        Tu peux aussi recopier l'adresse figurant sur l'enveloppe dans ton logiciel de messagerie préféré.
+        
+        Merci de ne pas utiliser le livre d'or pour les demandes ou questions particulières, mais tu peux y laisser un petit mot, ça fait toujours plaisir.</p>
+    </div>
+  </div>  <hr>  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-i.net">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
+  </div>  <hr>  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div><!-- End page content -->
+</div><!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer></body>
 </html>
