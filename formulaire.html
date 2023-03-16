@@ -5,48 +5,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
+<link rel="stylesheet" href="css/style.css">
 
-</style>
 </head>
-<body><!-- Navbar (sit on top) -->
+<body>
+  <!-- Navbar  -->
+  
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Le Catering</h1>
+    <div id="head">
+      <a href="index.html"><img src="img/logo.png"></a>
+      <h1>LA MATERNELLE MOUSTACHE</h1>
+      <img src="img/ukr.png">
+    </div>
   </div>
-</header><!-- Page content -->
-<div class="w3-content" style="max-width:1100px">  <!-- About Section -->
+</header>
+<nav class="navbar">
+  <a href="index.html">Accueil</a>
+  <a href="">A lire</a>
+  <a href="">Themes</a>
+  <a href="">FAQ</a>
+  <a href="">Agenda</a>
+  <a href="">Astuces</a>
+</nav><br>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">  
+  <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
      <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
     </div>    
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">Tu veux me contacter ?</h1><br>
-      <h5 class="w3-center">Tradition since 1889</h5>
-      <p class="w3-large">Avant de me poser une question (problèmes de téléchargement, fichier zippé invalide ou corrompu, souci d'impression... ), tu peux jeter un oeil dans la Foire aux questions (FAQ) la réponse s'y trouve peut-être déjà.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">Clique sur l'enveloppe, je m'efforcerai de te répondre dans les meilleurs délais.
-
-        Pour avoir une réponse, merci de donner une adresse mail valide.
-        
-        Tu peux aussi recopier l'adresse figurant sur l'enveloppe dans ton logiciel de messagerie préféré.
-        
-        Merci de ne pas utiliser le livre d'or pour les demandes ou questions particulières, mais tu peux y laisser un petit mot, ça fait toujours plaisir.</p>
-    </div>
-  </div>  <hr>  <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-i.net">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
-  </div>  <hr>  <!-- Contact Section -->
+  </div>  
+  <hr>  
+  <!-- Google map -->
+  <div class="mapouter">
+    <div class="gmap_canvas">
+      <iframe width="1080" height="587" id="gmap_canvas" src="https://maps.google.com/maps?q=51,%20Rue%20Gaston%20Lauriau%2093100%20Montreuil&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-i.net">123movies-i.net</a><br><style>.mapouter{position:relative;text-align:right;height:587px;width:1080px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:587px;width:1080px;}</style></div></div>
+  <hr> 
+   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
       <h1 class="w3-center">Tu veux me contacter ?</h1><br>
       <h5 class="w3-center">Tradition since 1889</h5>
       <p class="w3-large">Avant de me poser une question (problèmes de téléchargement, fichier zippé invalide ou corrompu, souci d'impression... ), tu peux jeter un oeil dans la Foire aux questions (FAQ) la réponse s'y trouve peut-être déjà.</p>
       <p class="w3-large w3-text-grey w3-hide-medium">Clique sur l'enveloppe, je m'efforcerai de te répondre dans les meilleurs délais.
-
         Pour avoir une réponse, merci de donner une adresse mail valide.
-        
         Tu peux aussi recopier l'adresse figurant sur l'enveloppe dans ton logiciel de messagerie préféré.
-        
         Merci de ne pas utiliser le livre d'or pour les demandes ou questions particulières, mais tu peux y laisser un petit mot, ça fait toujours plaisir.</p>
     </div>
     
@@ -59,7 +63,17 @@
     </form>
   </div><!-- End page content -->
 </div><!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer></body>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="title">
+      <a href="formulaire.html">Contact</a>
+      <p> © copyright 2023</p>
+      <h2 >Rejoignez-nous sur nos réseaux </h2></div>
+      <section class="containerRS">
+              <a target="_blank" href="https://www.facebook.com/lamaternelledemoustache"><img src="img/fb.png"></a>
+              <a target="_blank" href="#"><img src="img/insta.jpg" ></a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCA2RAqfNnQUfcuGPDX70Exw"><img src="img/yt.png" ></a>
+          </section>
+  </footer>
+</body>
 </html>
