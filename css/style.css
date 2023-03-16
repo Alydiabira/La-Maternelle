@@ -83,6 +83,10 @@
     height: 100px; 
     border-radius: 20px;
 }
+
+.containerRS{
+    background-color:rgb(255, 154, 154);
+}
 .containerRS img{
     width: 80px; 
     border-radius: 25px;
